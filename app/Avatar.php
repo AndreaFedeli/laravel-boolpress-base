@@ -10,5 +10,5 @@ class Avatar extends Model
  protected $fillable = ['telefono', 'avatar','user_id'];
 
  public function user(){
-     return $this->belongsTo('App\user')
+     return $this->belongsTo('App\user');
 }
